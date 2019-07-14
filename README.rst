@@ -1,0 +1,34 @@
+==============
+eventlet-power
+==============
+
+
+.. image:: https://img.shields.io/pypi/v/eventlet-power.svg
+    :target: https://pypi.python.org/pypi/eventlet-power
+
+.. image:: https://travis-ci.org/starofrainnight/eventlet-power.svg?branch=master
+    :target: https://travis-ci.org/starofrainnight/eventlet-power
+
+.. image:: https://ci.appveyor.com/api/projects/status/github/starofrainnight/eventlet-power?svg=true
+    :target: https://ci.appveyor.com/project/starofrainnight/eventlet-power
+
+An eventlet enhancement library
+
+
+* License: Apache-2.0
+* Documentation: https://eventlet-power.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+---------
+
+This package was created with Cookiecutter_ and the `PyPackageTemplate`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`PyPackageTemplate`: https://github.com/starofrainnight/rtpl-pypackage
+
