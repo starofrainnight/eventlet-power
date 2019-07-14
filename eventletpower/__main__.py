@@ -5,11 +5,14 @@
 
 import click
 
+
 @click.command()
-def main(args=None):
+def main():
     """Console script for eventlet-power."""
-    click.echo("Replace this message by putting your code into "
-               "eventletpower.__main__.main")
+    click.echo(
+        "Replace this message by putting your code into "
+        "eventletpower.__main__.main"
+    )
     click.echo("See click documentation at http://click.pocoo.org/")
 
 

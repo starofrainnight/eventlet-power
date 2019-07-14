@@ -12,12 +12,13 @@ eventlet-power
 .. image:: https://ci.appveyor.com/api/projects/status/github/starofrainnight/eventlet-power?svg=true
     :target: https://ci.appveyor.com/project/starofrainnight/eventlet-power
 
-An eventlet enhancement library
+An eventlet enhancement library.
 
+WARNING: If you want to use this library, ensure you won't apply eventlet's
+monkeypatch, especially not patch to the threading module. eventlet library
+have known issues when working with patched threading module.
 
 * License: Apache-2.0
-* Documentation: https://eventlet-power.readthedocs.io.
-
 
 Features
 --------
