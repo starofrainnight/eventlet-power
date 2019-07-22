@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from eventletpower import eventletpower
+from eventletpower import eventletpower  # noqa
 from eventletpower.__main__ import main
 
 
@@ -32,6 +32,6 @@ def test_command_line_interface():
     runner = CliRunner()
     result = runner.invoke(main)
     assert result.exit_code == 0
-    help_result = runner.invoke(main, ['--help'])
+    help_result = runner.invoke(main, ["--help"])
     assert help_result.exit_code == 0
-    assert '--help  Show this message and exit.' in help_result.output
+    assert "--help  Show this message and exit." in help_result.output
